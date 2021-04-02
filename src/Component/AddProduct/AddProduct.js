@@ -14,7 +14,7 @@ const AddProduct = () => {
             price: data.price,
             imageURL: imageURL
         };
-        const url = `http://localhost:5050/addBicycle`;
+        const url = `https://thawing-woodland-11369.herokuapp.com/addBicycle`;
        
            fetch(url, {
                method: 'POST',

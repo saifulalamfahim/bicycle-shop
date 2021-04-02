@@ -43,7 +43,7 @@ const CardDetail = () => {
     };
 
     useEffect(() => {
-        const url = `http://localhost:5050/Curds`;
+        const url = `https://thawing-woodland-11369.herokuapp.com/Curds`;
         fetch(url)
         .then(res => res.json())
         .then(data => {

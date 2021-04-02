@@ -9,7 +9,7 @@ const Home = () => {
     const [curds, setCurds] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5050/Curds')
+        fetch('https://thawing-woodland-11369.herokuapp.com/Curds')
         .then(res => res.json())
         .then(data => setCurds(data))
     }, [])

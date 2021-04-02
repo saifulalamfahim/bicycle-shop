@@ -6,7 +6,7 @@ const PlaceOrder = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
     useEffect(() => {
-        fetch('http://localhost:5050/Order?email='+loggedInUser.email)
+        fetch('https://thawing-woodland-11369.herokuapp.com/Order?email='+loggedInUser.email)
         .then(res => res.json())
         .then(data => setPlaceOrder(data));
     }, [])
