@@ -1,0 +1,22 @@
+.social-login .btn img {
+    height: 25px;
+    width: 25px;
+    text-align: left;
+    margin-right: 2px;
+  }
+  .social-login {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-login .btn {
+    border-radius: 60px;
+    border: 1px solid darkgray;
+    padding: 5px;
+    margin-bottom: 8px;
+    width: 100%;
+  }
+  .social-login .btn:focus,
+  .btn:active {
+    outline: none !important;
+    box-shadow: none;
+  }

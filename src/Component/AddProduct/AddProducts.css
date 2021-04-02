@@ -1,0 +1,9 @@
+.form{
+    border: 1px solid skyblue;
+    width: 70%;
+    margin-left: 200px;
+    background-color: black;
+}
+.formInput{
+    width: 70%;
+}

@@ -1,0 +1,12 @@
+.cartBicycle:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(255, 180, 180);
+}
+.cartBicycle img{
+    max-width: 200px;
+    width: 100%;
+    margin: 20px;
+    height: 125px;
+    object-fit: cover;
+    display: block;
+}
