@@ -1,10 +1,22 @@
-# 1/ first i create a clint site..
-# 2/ then i crreat a server site and connected with mongodb for new product adding..
-# 3/ then i creat lots of component..
-# 4/ after thet  i submited my all projet github and heroku and then firebase
-..
-.
-.
-# github for clintsite: https://github.com/Porgramming-Hero-web-course/full-stack-client-saifulalamfahim
-# github for server site: https://github.com/Porgramming-Hero-web-course/full-stack-server-saifulalamfahim
+# Bicycle shop website
+# Hi there, I'm Saiful Alam Fahim 👋
+
+This is an online shopping purchasing type website. It is
+developed by React, MongoDB, Firebase, ES6, React-Router,
+React-Hooks, React-custom-hook, Html, CSS and Material UI,
+React-time-picker
 # live site: https://modest-villani-b3b106.netlify.app/
+
+# Features
+1/ Different Link for Admin Panel.
+
+2/ Adding Service Option.
+
+3/ User time picker option.
+
+4/ Services are under processing for a user till checked by an admin.
+
+5/ Fully Responsive with sign-in/up feature.
+
+6/ user see there all orders.
+
